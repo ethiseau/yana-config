@@ -3,8 +3,8 @@ build:
 spring:  
   datasource:
     url: jdbc:mysql://localhost:3306/yana-events
-    username: root
-    password: root
+    username: {cipher}aa358b922149d1607dd02a7114e9f828b6f70ce0a406eee74dabe300e1829c40
+    password: {cipher}75c783472dd569715c3e543286c822ab91d4426dd7fc377888a34b6daf41d8c8
 
   jpa:
     show-sql: true
