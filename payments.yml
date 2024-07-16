@@ -5,6 +5,7 @@ spring:
     password: "{cipher}75c783472dd569715c3e543286c822ab91d4426dd7fc377888a34b6daf41d8c8"
   jpa:
     show-sql: true
+    format-sql: true
 
 build:
   version: "1.0.1"    
